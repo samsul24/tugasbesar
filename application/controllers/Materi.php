@@ -18,15 +18,15 @@ class Materi extends REST_Controller
 
   function index_get()
   {
-      // $this->db->select('subbab.nama_sub');
-      // $this->db->from('subbab');
-      // $this->db->join('materi', 'subbab.id_sub = materi.id_sub');
-      // if($id !=null){
-      //   $this->db->where('id_materi', $id);
-      // }
-      // $materi = $this->db->get():
-      // return $materi:
-            
+    // $this->db->select('subbab.nama_sub');
+    // $this->db->from('subbab');
+    // $this->db->join('materi', 'subbab.id_sub = materi.id_sub');
+    // if($id !=null){
+    //   $this->db->where('id_materi', $id);
+    // }
+    // $materi = $this->db->get():
+    // return $materi:
+
 
     $id = $this->get('id_materi');
     $id2 = $this->get('id_sub');
@@ -42,6 +42,7 @@ class Materi extends REST_Controller
     }
     $this->response($materi, 200);
   }
+
   function index_post()
   {
     $data = array(
