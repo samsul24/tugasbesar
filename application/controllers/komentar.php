@@ -50,8 +50,10 @@ class komentar extends REST_Controller
     function index_post()
     {
         $data = array(
-            'email'          => $this->post('emal'),
-            'komen'         => $this->post('komen'),
+            'komen_status'         => $this->post('komen_status'),
+            'nama'          => $this->post('nama'),
+            'email'          => $this->post('email'),
+            'komentar'         => $this->post('komentar'),
         );
         $insert = $this->db->insert('komentar', $data);
         if ($insert) {

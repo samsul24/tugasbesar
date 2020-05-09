@@ -24,7 +24,7 @@
                         $i=1;
                         foreach ($temp_jawab as $rows) : ?>
                                 <tr>
-                                    <input name="angka" value="<?= $this->session->userdata('angka'); ?>">
+                                    <input  name="angka" value="<?= $this->session->userdata('angka'); ?>">
                                     <a>jawaban no <?php echo $rows['id_soal']; ?> : </a>
                                     <a><?php echo $rows['jawaban']; ?> </a><br>
                                     

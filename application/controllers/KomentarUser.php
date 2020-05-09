@@ -16,9 +16,9 @@ class komentarUser extends CI_Controller
     {
         $data['komentar'] = json_decode($this->curl->simple_get($this->API));
         $data['title'] = "komentar";
-        $this->load->view('header', $data, FALSE);
+        // $this->load->view('header');
         $this->load->view('komentar/index', $data, FALSE);
-        $this->load->view('footer', $data, FALSE);
+        // $this->load->view('footer');
     }
 
     public function post()
@@ -34,8 +34,10 @@ class komentarUser extends CI_Controller
     public function post_process()
     {
         $data = array(
+            'komen_status'          => '0',
+            'nama'          => $this->post('nama'),
             'email'          => $this->post('email'),
-            'komen'         => $this->post('komen'),
+            'komentar'         => $this->post('komentar'),
         );
         $insert =  $this->curl->simple_post($this->API, $data);
         if ($insert) {
@@ -60,9 +62,11 @@ class komentarUser extends CI_Controller
     public function put_process()
     {
         $data = array(
-            'id_komentar'   => $this->post('id_komentar'),
+            'id_komentar'   => '0',
+            'komen_status'         => '0',
+            'nama'          => $this->post('nama'),
             'email'         => $this->post('email'),
-            'komen'         => $this->post('komen'),
+            'komentar'         => $this->post('komentar'),
         );
         $update =  $this->curl->simple_put($this->API, $data, array(CURLOPT_BUFFERSIZE => 10));
         if ($update) {

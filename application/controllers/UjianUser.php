@@ -20,6 +20,15 @@ class UjianUser extends CI_Controller
         $this->load->view('ujian/index', $data, FALSE);
         $this->load->view('footer1');
     }
+    public function hasil()
+    {
+      $data['title'] = "Latihan soal";
+      $data['temp_jawab'] = $this->ujian_model->getJawab();
+      $this->load->view('header0');
+      $this->load->view('bar');
+      $this->load->view('ujian/hasil', $data, FALSE);
+      $this->load->view('footer1');
+    }
 
     public function post()
     {

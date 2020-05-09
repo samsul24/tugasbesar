@@ -168,6 +168,7 @@
               Materi
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="<?php echo site_url(); ?>userlogin/materi">Modul</a>
               <a class="dropdown-item" href="<?php echo site_url(); ?>userlogin/galeri">Galeri</a>
             </div>
           </li>
@@ -316,143 +317,224 @@
       </div>
     </div>
   </div><!-- End Intro Section -->
+  <br><br>
+  <div class="sec text-center aos-init aos-animate" data-aos="zoom-in-up">
+	<h1 class="text-center big">Vidios</h1>
+	<h2 class="subHeading">Vidios</h2>
+<div class="sec text-center" style="padding: 70px;">
+	<!-- Grid row -->
+	<div class="row">
+		<!-- Grid column -->
+		<div class="col-lg-4 col-md-12 mb-4">
+
+			<!--Modal: Name-->
+			<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+
+					<!--Content-->
+					<div class="modal-content">
+
+						<!--Body-->
+						<div class="modal-body mb-0 p-0">
+
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tJ65wgRPS3o" allowfullscreen=""></iframe>
+							</div>
+
+						</div>
+
+						<!--Footer-->
+						<div class="modal-footer justify-content-center">
+							<span class="mr-4">Spread the word!</span>
+							<a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+							<!--Linkedin-->
+							<a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+							<button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+						</div>
+
+					</div>
+					<!--/.Content-->
+
+				</div>
+			</div>
+			<!--Modal: Name-->
+
+			<a><img class="img-fluid z-depth-1" style="height=10px" src="<?php echo base_url(); ?>css/assets/img1/darat.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=730&amp;w=1260" alt="video" data-toggle="modal" data-target="#modal1"></a>
+
+		</div>
+		<!-- Grid column -->
+
+		<!-- Grid column -->
+		<div class="col-lg-4 col-md-6 mb-4">
+
+			<!--Modal: Name-->
+			<div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+
+					<!--Content-->
+					<div class="modal-content">
+
+						<!--Body-->
+						<div class="modal-body mb-0 p-0">
+
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HduzzmUDZcI" allowfullscreen=""></iframe>
+							</div>
+
+						</div>
+
+						<!--Footer-->
+						<div class="modal-footer justify-content-center">
+							<span class="mr-4">Spread the word!</span>
+							<a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+							<!--Linkedin-->
+							<a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+							<button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+						</div>
+
+					</div>
+					<!--/.Content-->
+
+				</div>
+			</div>
+			<!--Modal: Name-->
+
+			<a><img class="img-fluid z-depth-1" src="<?php echo base_url(); ?>css/assets/img1/darat1.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=780&amp;w=1260" alt="video" data-toggle="modal" data-target="#modal6"></a>
+
+		</div>
+		<!-- Grid column -->
+
+		<!-- Grid column -->
+		<div class="col-lg-4 col-md-6 mb-4">
+
+			<!--Modal: Name-->
+			<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+
+					<!--Content-->
+					<div class="modal-content">
+
+						<!--Body-->
+						<div class="modal-body mb-0 p-0">
+
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HeJDyVYfUV8" allowfullscreen=""></iframe>
+							</div>
+
+						</div>
+
+						<!--Footer-->
+						<div class="modal-footer justify-content-center">
+							<span class="mr-4">Spread the word!</span>
+							<a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+							<!--Linkedin-->
+							<a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+							<button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+						</div>
+
+					</div>
+					<!--/.Content-->
+
+				</div>
+			</div>
+			<!--Modal: Name-->
+
+			<a><img class="img-fluid z-depth-1" src="<?php echo base_url(); ?>css/assets/img1/extream.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="video" data-toggle="modal" data-target="#modal4"></a>
+
+		</div>
+		<!-- Grid column -->
+
+	</div>
+	<!-- Grid row -->
+</div>
+</div>
+
+<div class="sec text-center aos-init aos-animate" data-aos="zoom-in-up">
+	<h1 class="text-center big">Plant-Education</h1>
+	<h2 class="subHeading">Plant-Education</h2>
+  <p class="text-center"  style="padding: 70px;">
+  Tumbuhan merupakan salah satu dari klasifikasi makhluk hidup. Tumbuhan memiliki klorofil 
+  atau zat hijau daun yang berfungsi sebagai media penciptaan makanan dan untuk proses fotosintesis. 
+  Dalam ilmu biologi, tumbuhan termasuk organisme yang disebut Regnum Plantaeyang merupakan organisme 
+  multiseluler atau terdiri atas banyak sel. Tercatat sekitar 350.000 spesies tumbuhan, dari jumlah 
+  tersebut 258.650 jenis merupakan tumbuhan berbunga dan 18.000 jenis termasuk tumbuhan lumut. 
+  Hampir semua anggota tumbuhan bersifat autotrof dan mendapatkan energi langsung dari cahaya 
+  matahari melalui proses fotosintesis.Ciri yang sangat mudah dikenali pada tumbuhan adalah warna hijau 
+  yang dominan akibat kandungan pigmen klorofil yang berperan vital dalam proses penangkapan energi melalui 
+  fotosintesis sehingga tumbuhan secara umum bersifat autotrof. Beberapa perkecualian, seperti pada sejumlah 
+  tumbuhan parasit. Hal ini terjadi karena akibat adaptasi terhadap cara hidup dan lingkungan yang unik. 
+  Sifatnya yang autotrof, membuat tumbuhan selalu menempati posisi pertama dalam rantai aliran energi melalui 
+  organisme hidup (rantai makanan).
+	</p>
+</div>
+  
+<div class="sec text-center aos-init aos-animate" data-aos="zoom-in-up">
+	<h1 class="text-center big">Some Thing in Here</h1>
+	<h2 class="subHeading">Some Thing in Here</h2>
+	<div class="sec d-flex flex-row mt-4">
+		<div class="card-img-d" style="padding:70px">
+    <br>
+			<img src="<?php echo base_url(); ?>css/assets/img1/extream.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="" class="img-d img-fluid">
+			<br><br><br>
+			<img src="<?php echo base_url(); ?>css/assets/img1/darat1.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" alt="" class="img-d img-fluid">
+      <br><br><br>
+    	<img src="<?php echo base_url(); ?>css/assets/img1/darat.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" alt="" class="img-d img-fluid">
+		</div>
+		<div class="text-left">
+    <br><br><br><br>
+			<p class="futura-content" style="margin : 1.5rem 3rem;">
+      &nbsp; &nbsp;Dalam biologi, tumbuhan adalah organisme eukariota multiseluler yang tergolong ke dalam kerajaan Plantae. 
+      Di dalamnya terdiri atas beberapa klad yakni, tanaman berbunga, Gymnospermae atau Tumbuhan berbiji terbuka, 
+      Lycopodiopsida, paku-pakuan, lumut, serta sejumlah alga hijau.Tanaman hijau memiliki dinding sel yang kokoh 
+      mengandung selulosa. Hampir semua anggota tumbuhan bersifat autotrof, yakni memproduksi energi sendiri dengan 
+      mengubah energi cahaya matahari melalui proses yang disebut fotosintesis dalam organel sel bernama kloroplas. 
+      Karena warna hijau yang dominan pada anggota kerajaan ini, nama lain yang dipakai adalah Viridiplantae 
+      ("tumbuhan hijau"). Nama lainnya adalah Metaphyta.
+			</p><br><br><br>
+			<p class="futura-content" style="margin : 1.5rem 3rem;">
+      &nbsp; &nbsp;Ciri yang segera mudah dikenali pada tumbuhan adalah warna kehijauan tetapi bisa kuning yang dominan akibat 
+      kandungan pigmen klorofil yang berperan vital dalam proses penangkapan energi melalui fotosintesis. Dengan demikian, 
+      tumbuhan secara umum bersifat autotrof. Beberapa perkecualian, seperti pada sejumlah tumbuhan parasit, merupakan 
+      akibat adaptasi terhadap cara hidup dan lingkungan yang unik. Karena sifatnya yang autotrof, tumbuhan selalu 
+      menempati posisi pertama dalam rantai aliran energi melalui organisme hidup (rantai makanan).Tumbuhan bersifat 
+      stasioner atau tidak bisa berpindah atas kehendak sendiri, meskipun beberapa alga hijau bersifat motil 
+      (mampu berpindah) karena memiliki flagelum.
+			</p><br><br><br>
+			<p class="futura-content" style="margin : 1.5rem 3rem;">
+      &nbsp; &nbsp;Klasifikasi tumbuhan masa lalu memasukkan pula semua alga ("ganggang") dan fungi 
+      (cendawan, termasuk jamur lendir, bahkan bakteri), sebagai anggotanya. Batasan tumbuhan 
+      semacam ini dikenal sebagai tumbuhan dalam arti luas, yang kini dianggap sudah usang.
+      Kritik-kritik yang muncul membuat fungi dipisahkan dari tumbuhan. Meskipun tumbuh stasioner, 
+      fungi bersifat saprotrof, mendapatkan energi dari sisa-sisa bahan organik. Selain itu, dinding 
+      sel fungi tidak tersusun dari selulosa, bahan yang menyusun dinding sel tumbuhan, tetapi tersusun 
+      dari kitin, yang malah kebanyakan dihasilkan hewan. 
+			</p>
+		</div>
+	</div>
+</div>
+
 
   <main id="main">
 
     <!-- ======= Agents Section ======= -->
-    <section class="section-agents section-t8">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="title-wrap d-flex justify-content-between">
-              <div class="title-box">
-                <h2 class="title-a">Web Developer</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card-box-d">
-              <div class="card-img-d">
-                <img src="<?php echo base_url(); ?>css/assets/img/agent-1.jpg" alt="" class="img-d img-fluid">
-              </div>
-              <div class="card-overlay card-overlay-hover">
-                <div class="card-header-d">
-                  <div class="card-title-d align-self-center">
-                    <h3 class="title-d">
-                      <a href="agent-single.html" class="link-two">Samsul Islam
-                        <br> BS</a>
-                    </h3>
-                  </div>
-                </div>
-                <div class="card-body-d">
-                  <p class="content-d color-text-a">
-                    Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
-                  </p>
-                  <div class="info-agents color-a">
-                    <p>
-                      <strong>Phone: </strong> +85356945234</p>
-                    <p>
-                      <strong>Email: </strong> samsul@gmail.com</p>
-                  </div>
-                </div>
-                <div class="card-footer-d">
-                  <div class="socials-footer d-flex justify-content-center">
-                    <ul class="list-inline">
-                      <li class="list-inline-item">
-                        <a href="#" class="link-one">
-                          <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a href="#" class="link-one">
-                          <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a href="#" class="link-one">
-                          <i class="fa fa-instagram" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a href="#" class="link-one">
-                          <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a href="#" class="link-one">
-                          <i class="fa fa-dribbble" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card-box-d">
-              <div class="card-img-d">
-                <img src="<?php echo base_url(); ?>css/assets/img/agent-5.jpg" alt="" class="img-d img-fluid">
-              </div>
-              <div class="card-overlay card-overlay-hover">
-                <div class="card-header-d">
-                  <div class="card-title-d align-self-center">
-                    <h3 class="title-d">
-                      <a href="agent-single.html" class="link-two">Bethania Dwi
-                        <br> Rossyanti</a>
-                    </h3>
-                  </div>
-                </div>
-                <div class="card-body-d">
-                  <p class="content-d color-text-a">
-                    Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
-                  </p>
-                  <div class="info-agents color-a">
-                    <p>
-                      <strong>Phone: </strong> 081334958933</p>
-                    <p>
-                      <strong>Email: </strong> bethaniadr15@gmail.com</p>
-                  </div>
-                </div>
-                <div class="card-footer-d">
-                  <div class="socials-footer d-flex justify-content-center">
-                    <ul class="list-inline">
-                      <li class="list-inline-item">
-                        <a href="#" class="link-one">
-                          <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a href="#" class="link-one">
-                          <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a href="#" class="link-one">
-                          <i class="fa fa-instagram" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a href="#" class="link-one">
-                          <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a href="#" class="link-one">
-                          <i class="fa fa-dribbble" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Agents Section -->
 
     <!-- ======= Latest News Section ======= -->
     <section class="section-news section-t8">
@@ -475,7 +557,7 @@
           <div class="carousel-item-c">
             <div class="card-box-b card-shadow news-box">
               <div class="img-box-b">
-                <img src="<?php echo base_url(); ?>css/assets/img/1.jfif" alt="" class="img-b img-fluid">
+                <img src="<?php echo base_url(); ?>css/assets/img/4.jpg" alt="" class="img-b img-fluid">
               </div>
               <div class="card-overlay">
                 <div class="card-header-b">

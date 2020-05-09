@@ -46,6 +46,10 @@ class UserLogin extends CI_Controller
   {
     $this->load->view('user/ujian1');
   }
+  public function ujian2()
+  {
+    $this->load->view('user/ujian2');
+  }
   public function index1()
   {
 

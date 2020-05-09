@@ -30,7 +30,7 @@
             <td><?php echo $rows->kategori; ?></td>
             <td><?php echo $rows->nama; ?></td>
             <td><img src="<?php echo base_url('img/' . $rows->image) ?>" width="64" /></td>
-            <td><?php echo $rows->keterangan; ?></td>
+            <td><?php echo str_word_count($rows->keterangan) > 25 ? substr($rows->keterangan,0,20)."[...]" :$rows->keterangan ;  ?></td>
             <td>
               <!-- <a href="<?php echo site_url(); ?>materiuser/put/<?php echo $rows->id_materi; ?>" class="btn btn-warning">
                 <i class="fa fa-pen" aria-hidden="true"></i></a> -->

@@ -4,7 +4,9 @@
 }
 body {
 	margin-top: 100px;
-	background-image: url(assets/img1/background3.jpg);
+	/* background-image: url(assets/img1/background3.jpg); */
+	background-color: rgb(255, 255, 255);
+
 	background-position: center;
 	background-size: cover;
 	color: rgb(25, 25, 25);
@@ -17,6 +19,54 @@ body {
 	width: max-content;
 	object-fit: cover;
   }
+  @font-face {
+	font-family: 'Pacifico';
+	src: url('../fonts/pacifico/Pacifico.ttf');
+	font-size: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'futura';
+	src: url('../fonts/futura/futura\ light\ bt.ttf');
+	font-style: normal;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'futura';
+	src: url('../fonts/pacifico/Pacifico.ttf');
+	font-style: normal;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'futura';
+	src: url('../fonts/futura/Futura\ Bold\ font.ttf');
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'futura';
+	src: url('../fonts/futura/futura\ medium\ bt.ttf');
+	font-style: normal;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url('../fonts/roboto/Roboto-Light.ttf');
+	font-style: normal;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url('../fonts/roboto/RobotoCondensed-Regular.ttf');
+	font-style: normal;
+	font-weight: 700;
+}
 /* .footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
 .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
 .footer-bs .footer-brand h2 { margin:0px 0px 10px; }

@@ -80,7 +80,7 @@
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="<?php echo site_url(); ?>userclient" class="nav-link active text-white">
+						<a href="<?php echo site_url(); ?>ujianuser/hasil" class="nav-link active text-white">
 							<i class="fas fa-clipboard" aria-hidden="true"></i> &nbsp;
 							<span> Hasil Ujian </span>
 						</a>

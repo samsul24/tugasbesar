@@ -12,7 +12,7 @@
   <script src="<?php echo base_url() ?>css/assets/vendor/php-email-form/validate.js"></script>
   <script src="<?php echo base_url() ?>css/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="<?php echo base_url() ?>css/assets/vendor/scrollreveal/scrollreveal.min.js"></script>
-
+  
   <!-- Vendor CSS Files -->
   <title>Plant Educataion</title>
   <meta content="" name="descriptison">
@@ -187,7 +187,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@gmal">Komentar</a>
+            <a class="nav-link" href="<?php echo site_url(); ?>komentaruser">Komentar</a>
           </li>
         </ul>
       </div>

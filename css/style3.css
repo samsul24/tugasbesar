@@ -1,85 +1,10 @@
-/* body {
-  background-image: url(assets/img/background2.jpg);
-  background-position: center;
-  background-size: cover;
-  color: rgb(25, 25, 25);
-  font-family: "Roboto Slab", serif;
-}
-.header-img {
-  height: 250px;
-  width: max-content;
-  object-fit: cover;
-}
-.navbar {
-  background-color: rgb(111, 202, 50);
-}
-.navbar1 {
-  background-color: rgb(111, 202, 50);
-}
-.navbar-brand {
-  color: rgb(255, 255, 255);
-  font-size: 25px;
-}
-.navbar-brand:hover {
-  color: rgb(25, 25, 25);
-}
-.nav-item::after {
-  content: "";
-  display: block;
-  width: 0px;
-  height: 5px;
-  background: rgb(25, 25, 25);
-  transition: 0.2s;
-}
-.nav-item:hover::after {
-  width: 100%;
-}
-.nav-link {
-  padding: 10px;
-  transition: 0.2s;
-  color: rgb(255, 255, 255);
-  font-size: 25px;
-}
-.nav-link:hover {
-  color: rgb(25, 25, 25);
-}
-.dropdown-item:active {
-	background-color: rgb(200, 75, 75);
-}
-.carousel-caption {
-  background-color: rgba(255, 255, 255, 0.75);
-  color: rgb(25, 25, 25);
-}
-.card {
-  background-color: rgb(255, 255, 255);
-  color: rgb(25, 25, 25);
-}
-.card.login {
-  width: 250px;
-}
-.card.registration{
-  width: 500px;
-}
-.jumbotron{
-  background-color: rgba(87, 248, 95, 0.473);
-  color: white;
-}
-.btn.banner{
-  font-size: 25px;
-  border-radius: 50px;
-}
-.footer {
-  background-color: rgb(25, 25, 25);
-  color: rgb(255, 255, 255);
-  height: 100px;
-} */
-
 .footer-bs {
 	margin-top: 100px;
     
 }
 body {
 	margin-top: 100px;
+	background-image: url(assets/img1/background3.jpg);
 	background-position: center;
 	background-size: cover;
 	color: rgb(25, 25, 25);
@@ -88,7 +13,7 @@ body {
   }
   .header-img {
 	margin-top: 10px;
-	height: 250px;
+	height: 150px;
 	width: max-content;
 	object-fit: cover;
   }

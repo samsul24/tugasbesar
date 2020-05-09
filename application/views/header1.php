@@ -31,7 +31,7 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
   <!-- External CSS -->
   <link rel="stylesheet" href="<?php echo base_url() ?>css/assets/css/style.css">
-  <link rel="stylesheet" href="<?php echo base_url() ?>css/style4.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>css/style3.css">
   <!-- <link rel="stylesheet" href="<?php echo base_url() ?>css/assets/vendor/bootstrap/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="<?php echo base_url() ?>css/assets/vendor/ionicons/css/ionicons.min.css">
   <link rel="stylesheet" href="<?php echo base_url() ?>css/assets/vendor/animate.css/animate.min.css">

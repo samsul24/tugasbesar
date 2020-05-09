@@ -314,13 +314,36 @@ a:hover {
 }
 
 /*------/ Title /------*/
+
+.text-center {
+  text-align: center !important;
+}
+.tC { 
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.big {
+  position: absolute;
+  right: 0;
+  left: 0;
+  font-family: 'Pacifico';
+  color: #0000000d;
+  color: rgb(95, 236, 102);
+  font-size: 5rem;
+  z-index: -1;
+  font-weight: 600;
+  width: 1366px;
+}
 .title-wrap {
   padding-bottom: 4rem;
 }
 
 .title-a {
+  
   font-size: 2.6rem;
   font-weight: 600;
+  font-family: futura;
 }
 
 .title-link {
