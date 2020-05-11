@@ -78,10 +78,11 @@
 			<h2 class="tsubHeading text-muted" style="font-family: 'roboto';src: url('../fonts/roboto/RobotoCondensed-Regular.ttf');font-style: normal;font-weight: 700;">Plant-Education</h2>
 			<p class="text-muted font-weight-bolder">THESE ARE SOME OF THE GALLERIES THAT WE PUBLISH</p>
         </div>
-        <div class="d-flex flex-row justify-content-around people mt-5" data-aos="zoom-in-up">
+        <form action="" style="padding: 70px;">
+        <div class="d-flex flex-row justify-content-around people mt-5"> 
         <?php $i = 1;
         foreach ($gambar as $rows) : ?>
-            <div class=" subHeading text-muted">
+            <div class=" subHeading text-muted" style="padding: 10px;">
                 <div class="iPeople mb-3">
                     <img src="<?php echo base_url('img/' . $rows->foto) ?>"alt=""
                         style="width:200px;height:200px;border-radius:50%" />              
@@ -93,7 +94,9 @@
             </div>
             <?php $i++;
         endforeach; ?>
+        </form>
         </div>
+        <br><br>
         </div>
         <br><br><br><br><br><br><br><br><br>
 </section>

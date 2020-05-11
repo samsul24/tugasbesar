@@ -1,7 +1,7 @@
 <?php if($this->session->userdata('level')!='admin'){redirect('login');};?>
     
     <div class="cc">
-	<h1 class="mt-2 mb-3 font-weight-bold">Verifikasi User</h1>
+	<h1 class="mt-2 mb-3 font-weight-bold">Dasboard admin</h1>
             <div class="tableSize">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +30,7 @@
   width: 100%;
   opacity: 0;
   transition: .3s ease;
-  background-color: red;
+  background-color:#2eca6a;
 }
 
 .container:hover .overlay {

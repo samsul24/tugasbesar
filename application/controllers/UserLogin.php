@@ -220,4 +220,12 @@ class UserLogin extends CI_Controller
   //     $this->load->view('user/habitat', $data, FALSE);
   //     $this->load->view('footer', $data, FALSE);
   // }
+  public function komen()
+  {
+      $data['komentar'] = json_decode($this->curl->simple_get($this->API));
+      $data['title'] = "komentar";
+      // $this->load->view('header');
+      $this->load->view('komentar/index', $data, FALSE);
+      // $this->load->view('footer');
+  }
 }

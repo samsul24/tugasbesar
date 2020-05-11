@@ -32,7 +32,7 @@
     <div class="container-fluid">
         <div id="header-section" class="row header-section">
         <div class="col-md-12">    
-            <a href="<?php echo site_url(); ?>userlogin/ujian2" class="btn btn-dark btn-lg">
+            <a href="<?php echo site_url(); ?>userlogin/index1" class="btn btn-dark btn-lg">
             <i class="fa fa-plus" aria-hidden="true"></i>Mulai </a>
             </div>    
         <div class="col-md-12 text-center box-area">

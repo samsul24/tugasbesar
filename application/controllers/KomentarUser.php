@@ -26,26 +26,27 @@ class komentarUser extends CI_Controller
         // $this->API2 = "http://localhost/tugasbesar/komentar";
         // $data['komentar'] = json_decode($this->curl->simple_get($this->API2));
         $data['title'] = "Tambah Data bab";
-        $this->load->view('header', $data, FALSE);
-        $this->load->view('komentar/index_post', $data, FALSE);
-        $this->load->view('footer', $data, FALSE);
+        $this->load->view('header');
+        $this->load->view('komentar/index', $data, FALSE);
+        $this->load->view('footer');
     }
 
     public function post_process()
     {
         $data = array(
-            'komen_status'          => '0',
             'nama'          => $this->post('nama'),
             'email'          => $this->post('email'),
-            'komentar'         => $this->post('komentar'),
+            'keterangan'         => $this->post('keterangan'),
         );
+        
         $insert =  $this->curl->simple_post($this->API, $data);
         if ($insert) {
-            $this->session->set_flashdata('result', 'Data bab Berhasil Ditambahkan');
+            $this->session->set_flashdata('result', '');
+            redirect('komentaruser', 'refresh');
         } else {
-            $this->session->set_flashdata('result', 'Data bab Gagal Ditambahkan');
+            $this->session->set_flashdata('result', '');
         }
-        redirect('komentaruser');
+        redirect('komentaruser', 'refresh');
     }
 
     public function put()
@@ -62,8 +63,8 @@ class komentarUser extends CI_Controller
     public function put_process()
     {
         $data = array(
-            'id_komentar'   => '0',
-            'komen_status'         => '0',
+            'id_komentar'   => $this->post('id_komentar'),
+            'komen_status'         => $this->post('komen_status'),
             'nama'          => $this->post('nama'),
             'email'         => $this->post('email'),
             'komentar'         => $this->post('komentar'),

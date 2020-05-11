@@ -22,13 +22,13 @@
                             foreach ($temp_jawab as $rows) : ?>
                                 <tr>
                                     <td><?= $no ; ?></td>
-                                    <td><input  name="angka" value="<?= $this->session->userdata('angka'); ?>"></td>
+                                    <!-- <td><input  name="angka" value="<?= $this->session->userdata('angka'); ?>"></td> -->
                                     <td><?= $rows['id_user']; ?></td>      
                                     <td><?= $rows['jawaban']; ?></td>
                                     <td>
-                            <a href="<?php echo site_url(); ?>ujianuser/put/<?php echo $rows['nomor']; ?>" class="btn btn-warning">
+                            <a href="<?php echo site_url(); ?>ujianuser/put/<?php echo $rows['id']; ?>" class="btn btn-warning">
                             <i class="fa fa-pen" aria-hidden="true"></i></a>
-                            <a href="<?= base_url(); ?>ujianuser/delete/<?= $rows['nomor'] ;?>" class="btn btn-danger"
+                            <a href="<?= base_url(); ?>ujianuser/delete/<?= $rows['id'] ;?>" class="btn btn-danger"
                             onClick="return confirm('yakin mau hapus');">
                             <i class="fa fa-trash" aria-hidden="true"></i></a>
                         </td>

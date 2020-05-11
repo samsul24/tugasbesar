@@ -9,21 +9,11 @@ use Restserver\Libraries\REST_Controller;
 class komentar extends REST_Controller
 {
 
-    public function __construct()
+    function __construct($config = 'rest')
     {
-        parent::__construct();
-        $this->load->library('curl');
-        $this->API = "http://localhost/tugasbesar/komentar";
+      parent::__construct($config);
     }
-
-    public function index()
-    {
-        $data['komentar'] = json_decode($this->curl->simple_get($this->API));
-        $data['title'] = "Bab";
-        $this->load->view('header2', $data, FALSE);
-        $this->load->view('komentar/index', $data, FALSE);
-        $this->load->view('footer', $data, FALSE);
-    }
+  
 
     function index_get()
     {
@@ -50,10 +40,9 @@ class komentar extends REST_Controller
     function index_post()
     {
         $data = array(
-            'komen_status'         => $this->post('komen_status'),
             'nama'          => $this->post('nama'),
             'email'          => $this->post('email'),
-            'komentar'         => $this->post('komentar'),
+            'keterangan'         => $this->post('keterangan'),
         );
         $insert = $this->db->insert('komentar', $data);
         if ($insert) {

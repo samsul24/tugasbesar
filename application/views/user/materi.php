@@ -10,7 +10,16 @@
 <?php
 }
 ?>
-
+<section class="sec headImage aos-init aos-animate" data-aos="zoom-in-up">
+	<img src="http://www.datsuncarsandparts.com/data/archive/img/323424538.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=450&amp;w=700" alt="">
+	<div class="headIndex">
+		<!-- <h1 class="futura-head" style="font-size:3.5rem;">Blog</h1> -->
+		<h2 class="futura-content" style="font-size:1.1rem;">
+			<!-- <a class="imageLink" href="http://localhost/company-profile/user/home">Home &gt;</a>
+			<a class="imageLink" href="http://localhost/company-profile/user/blog">Blog &gt;</a> -->
+		</h2>
+	</div>
+</section>
 <div class="container-fluid">
   <div class="row mt-3">
     <div class="col">
@@ -21,6 +30,7 @@
         <div class="card-body">
           <div class="container">
             <div>
+            <h2>Pilih Materi</h2>
               <form action="" method="post">
                 <select name="id_materi" class="form-control">
                   <?php foreach ($materi as $rows) : ?>
@@ -31,7 +41,6 @@
               </form>
             </div>
           </div>
-          <h2>Pilih Materi</h2>
           <?php if (!empty($isimateri)) :
             foreach ($isimateri as $rows) :
           ?>

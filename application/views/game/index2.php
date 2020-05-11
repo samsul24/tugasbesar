@@ -2,7 +2,9 @@
 <html>
   <head>
     <title>Puzzle Game</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" href="<?php echo base_url() ?>css/assets/css/style2.css">
+  
   </head>
  
   <body>
